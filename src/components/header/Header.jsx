@@ -16,7 +16,7 @@ const Header = () => {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <a href='/' className='nav-links' onClick={closeMobileMenu}>
+              <a href='/' className='nav-links' id='1' onClick={closeMobileMenu}>
                 Home
               </a>
             </li>
@@ -35,11 +35,11 @@ const Header = () => {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                ContactUs
+                Contact Us
               </a>
             </li>
 
-            <li>
+            <li className='nav-item'>
               <a
                 href='/sign-up'
                 className='nav-links'
