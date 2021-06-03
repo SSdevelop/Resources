@@ -1,14 +1,18 @@
 //import logo from './logo.svg';
 //import './App.css';
-import {BrowserRouter as router} from 'react-router-dom'
+import {Route, Switch} from 'react-router-dom'
 import Header from './components/header/Header.jsx'
 import './components/header/Header.css'
+import Home from './components/pages/home/Home.jsx';
+import Footer from './components/footer/Footer'
 function App() {
   return (
     <div classname='App'>
-    <router>
-    <Header />
-    </router>
+      <Header/>
+    <Switch>
+      <Route exact path= '/' component={Home} />
+    </Switch>
+    <Footer/>
     </div>
   );
 }

@@ -2,6 +2,8 @@
   background: rgba(231, 84, 31, 0.952);
   height: 80px;
   font-size: 1.2rem;
+  position: fixed;
+  width:100%;
 }
 
 .header-container {
@@ -51,7 +53,7 @@
     display: flex;
     flex-direction: column;
     width:100%;
-    height: 85vh;
+    height:85vh; ;
     position: absolute;
     top: 80px;
     left: -120%;

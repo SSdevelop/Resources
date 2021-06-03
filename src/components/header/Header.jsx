@@ -22,7 +22,7 @@ const Header = () => {
             </li>
             <li className='nav-item'>
               <a
-                href='/services'
+                href='/resources'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
